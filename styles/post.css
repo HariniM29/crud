@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    gap:40px;
+    margin-top:80px;
+}
+
+#posts{
+    width:400px;
+}
+
+i{
+    cursor:pointer;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    
+    gap:25px;
+}
+
+.msg{
+    color:rgb(112, 178, 235)
+}
+
+.navbar{
+    /* background-color: beige; */
+    position: fixed;
+    top:0;
+    width:100%;
+    padding:20px;
+    left:0;
+    background-color: rgb(167, 209, 247);
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-left:10px;
+    font-size: 19px;
+    color:black;
+    margin-left:100px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
